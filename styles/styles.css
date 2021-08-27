@@ -172,3 +172,7 @@ ul :hover {
   color: var(--white-text);
   background-color: var(--pink-secondary);
 }
+
+.card button:active{
+  background-color: var(--white-off);
+}
