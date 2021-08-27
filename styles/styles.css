@@ -173,6 +173,67 @@ ul :hover {
   background-color: var(--pink-secondary);
 }
 
-.card button:active{
+.card button:active {
   background-color: var(--white-off);
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 160px;
+  background-color: var(--pink-primary);
+  padding: 0 168px;
+  margin: 123px 0 43px 0;
+}
+
+footer > div {
+  display: grid;
+  align-items: center;
+  color: var(--white-text);
+  margin: 25px 0;
+}
+
+.depilive-brand {
+  position: relative;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+}
+
+.depilive-brand--logo {
+  align-self: flex-end;
+}
+
+.depilive-brand--logo h5 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.depilive-brand--logo p {
+  position: absolute;
+  left: calc(50%);
+  top: calc(45%);
+  margin-bottom: 20px;
+  font-size: 6px;
+  font-weight: 400;
+}
+
+.depilive-brand--copyright {
+  font-size: 9px;
+  font-weight: 600;
+}
+
+div h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.about-us p,
+.policies p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.icons--container {
+  display: flex;
+  gap: 48px;
 }
